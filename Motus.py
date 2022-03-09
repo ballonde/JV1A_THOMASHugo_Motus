@@ -4,6 +4,7 @@ from colorama import Fore, Back, Style
 init()
 
 print("bienvenu au jeu Motus, un mot va etre désigné aléatoirement.")
+print("rarararararararrar")
 
 motPossible=["carton","europe","manger","courir","joyeux","angles","bonbon","cancre","zephyr","zygote" ]#declaration des mots que l'on peut trouver
 motATrouver=motPossible[random.randint(1,len(motPossible)-1)]#choisit un mot a trouver aleatoire
